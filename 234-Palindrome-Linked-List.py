@@ -32,7 +32,7 @@ class Solution:
             pHead2 = pHead2.next
 
         while(pHead2 != None and pNew != None):
-            if pHead1.val != pNew.val:
+            if pHead2.val != pNew.val:
                 return False
             pHead2 = pHead2.next
             pNew = pNew.next
